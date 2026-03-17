@@ -1,6 +1,6 @@
 # ☕ Sun Vista Cafe & Bistro – Web Tasarım Projesi
 
-Bu proje, **Sun Vista Cafe & Bistro** için hazırlanmış modern bir tanıtım web sitesidir.
+Bu proje, **Sun Vista Cafe & Bistro** için hazırlanmıştır.
 Aynı zamanda frontend geliştirme sürecimde yaptığım denemeleri ve ilerlemeyi göstermektedir.
 
 ---
@@ -9,7 +9,7 @@ Aynı zamanda frontend geliştirme sürecimde yaptığım denemeleri ve ilerleme
 
 * Kafem için şık ve modern bir web arayüzü oluşturmak
 * HTML ve CSS becerilerimi geliştirmek
-* Farklı tasarım stillerini deneyerek kendimi ilerletmek
+* Farklı tasarım stillerini deneyerek kendimi geliştirmek.
 
 ---
 
@@ -18,7 +18,7 @@ Aynı zamanda frontend geliştirme sürecimde yaptığım denemeleri ve ilerleme
 * 🎨 Modern tasarım 
 * 🧊 Glassmorphism (blur efektleri)
 * 📱 Mobil uyumlu (responsive yapı)
-* ⚡ Hafif ve hızlı (sadece HTML + CSS)
+* ⚡ Hafif ve hızlı 
 * 🖱 Hover ve görsel efektler
 
 
