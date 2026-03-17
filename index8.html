@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sun Vista Cafe & Bistro - Modern Demo</title>
+<link rel="stylesheet" href="style8.css">
+</head>
+<body>
+
+<!-- Tema Seçici -->
+<div class="theme-selector">
+    <button onclick="setTheme('sun')">Sahil</button>
+    <button onclick="setTheme('natural')">Doğal</button>
+    <button onclick="setTheme('dark')">Koyu</button>
+</div>
+
+<!-- Kategori Seçici -->
+<div class="category-selector">
+    <button onclick="filterMenu('all')">Tümü</button>
+    <button onclick="filterMenu('coffee')">Kahve</button>
+    <button onclick="filterMenu('dessert')">Tatlı</button>
+    <button onclick="filterMenu('sandwich')">Sandviç</button>
+</div>
+
+<!-- Hero -->
+<header class="hero">
+    <h1>Sun Vista Cafe & Bistro</h1>
+    <p>Lezzet, huzur ve modern tasarım</p>
+</header>
+
+<!-- Menü -->
+<section class="menu-section">
+    <h2>Menümüz</h2>
+    <div class="menu-cards">
+        <div class="card" data-category="coffee">
+            <h3>Espresso</h3>
+            <p>Aromatik ve güçlü kahve.</p>
+        </div>
+        <div class="card" data-category="dessert">
+            <h3>Cheesecake</h3>
+            <p>Ev yapımı, hafif tatlı.</p>
+        </div>
+        <div class="card" data-category="sandwich">
+            <h3>Sandviç</h3>
+            <p>Taze malzemelerle hazırlanmış.</p>
+        </div>
+        <div class="card" data-category="coffee">
+            <h3>Cappuccino</h3>
+            <p>Köpüklü ve sıcak kahve keyfi.</p>
+        </div>
+        <div class="card" data-category="dessert">
+            <h3>Brownie</h3>
+            <p>Çikolata severler için.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sun Vista Cafe & Bistro | Sahil, İstanbul</p>
+</footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
