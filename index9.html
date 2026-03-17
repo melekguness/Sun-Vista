@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sun Vista Cafe & Bistro - İş Başvurusu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>Sun Vista Cafe & Bistro</h1>
+    <p>Ekibimize katılmak ister misiniz? Başvurunuzu gönderin!</p>
+</header>
+
+<section class="job-form">
+    <h2>Başvuru Formu</h2>
+    <form id="applicationForm">
+        <label for="name">Adınız Soyadınız</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-posta</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="position">Pozisyon</label>
+        <select id="position" name="position" required>
+            <option value="">Seçiniz</option>
+            <option value="barista">Barista</option>
+            <option value="garson">Garson</option>
+            <option value="mutfak">Mutfak Elemanı</option>
+        </select>
+
+        <label for="message">Kısa Mesaj / Deneyim</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Başvuruyu Gönder</button>
+    </form>
+    <p id="successMessage" style="display:none;">Başvurunuz alındı, teşekkürler! 😊</p>
+</section>
+
+<footer>
+    <p>© 2026 Sun Vista Cafe & Bistro | </p>
+</footer>
+
+<script src="scripte.js"></script>
+</body>
+</html>
