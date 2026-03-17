@@ -1,16 +1,28 @@
-# ☀️ Sun Vista Cafe & Bistro Website
+Sun Vista Cafe & Bistro Web Sitesi
 
-## 📌 Proje Hakkında
-Bu proje, bir kafe için modern ve mobil uyumlu bir web sitesi olarak tasarlanmıştır.
+Açıklama
 
-## 🚀 Özellikler
-- Responsive (mobil uyumlu) tasarım
-- Modern ve sade kullanıcı arayüzü
-- Menü ve içerik bölümleri
+Bu proje, Sun Vista Cafe & Bistro için hazırlanmış basit, şık ve mobil uyumlu bir web sayfasıdır. Sayfa, kullanıcıların menüleri görmesini ve fiyatları kolayca incelemesini sağlar.
 
-## 🛠️ Kullanılan Teknolojiler
-- HTML
-- CSS
 
-## 🎯 Amaç
-Frontend geliştirme becerilerimi geliştirmek ve gerçek bir işletme için web sitesi tasarlamak.
+Kullanılan Teknolojiler
+
+HTML5 – Sayfa yapısı
+
+CSS3 – Stil ve tasarım, mobil uyumluluk
+
+
+Dosya Yapısı
+SunVistaCafe/
+│
+├─ index.html       # Ana HTML dosyası
+├─ style.css        # Stil dosyası
+└─ README.md        # Proje açıklaması
+
+Görünüm
+
+Hero bölümü turuncu degrade arka plana sahip
+
+Menü öğeleri kutu içinde listelenmiş ve fiyatlar turuncu renkle vurgulanmış
+
+Mobil cihazlarda font ve paddingler optimize edilmiş
