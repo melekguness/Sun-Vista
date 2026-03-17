@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENEL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: #eee;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: radial-gradient(circle at top, #1c1c1c, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: #d4af37; /* ALTIN */
+}
+
+.hero-content p {
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.line {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #d4af37;
+    margin: 20px auto;
+}
+
+/* GLASS EFFECT */
+.about {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.glass {
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.glass h2 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+/* MENU */
+.menu {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #d4af37;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
+    padding: 30px;
+    border-radius: 20px;
+    width: 260px;
+    transition: 0.4s;
+    border: 1px solid rgba(212,175,55,0.2);
+}
+
+.menu-item h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    opacity: 0.7;
+}
+
+/* HOVER LÜKS EFEKT */
+.menu-item:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 0 25px rgba(212,175,55,0.3);
+}
+
+/* SIGNATURE SECTION */
+.signature {
+    height: 300px;
+    background: linear-gradient(to right, #000, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature h2 {
+    color: #d4af37;
+    font-size: 2rem;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+
+/* MOBİL */
+@media(max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}

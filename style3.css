@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: #0a0a0a;
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+}
+
+header {
+    padding: 60px;
+}
+
+h1 {
+    color: #00f7ff;
+    text-shadow: 0 0 20px #00f7ff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    padding: 40px;
+    border: 1px solid #00f7ff;
+    box-shadow: 0 0 15px #00f7ff;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
