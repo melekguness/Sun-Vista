@@ -21,15 +21,7 @@ Aynı zamanda frontend geliştirme sürecimde yaptığım denemeleri ve ilerleme
 * ⚡ Hafif ve hızlı (sadece HTML + CSS)
 * 🖱 Hover ve görsel efektler
 
----
 
-## 📂 Proje Yapısı
-
-
-sun-vista-cafe/
-│
-├── index.html
-└── style.css
 
 ##  Not
 
